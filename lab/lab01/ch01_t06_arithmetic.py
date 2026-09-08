@@ -1,5 +1,2 @@
-num1 = 5
-num2 = 10
-product = num1 * num2
-
-remainder = 1393 % 117
+product=6*6
+remainder=1393%11
