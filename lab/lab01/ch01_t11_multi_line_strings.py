@@ -1,3 +1,3 @@
-the old pond,
+haiku = """the old pond,
 A frog jumps in,
 Plop!
