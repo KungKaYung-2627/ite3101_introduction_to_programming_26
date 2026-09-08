@@ -1,4 +1,4 @@
 cucumbers = 100
 num_ppl = 6
 
-whole_
+whole_cucmbers_per_people =
