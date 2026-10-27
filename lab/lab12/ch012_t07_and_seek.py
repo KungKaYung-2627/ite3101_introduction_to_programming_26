@@ -24,5 +24,5 @@ random_row(board)
 random_col(board)
 
 # Add your code below!
-guest_row = input()
+guest_row = input("Guess ")
 guest_col = 
