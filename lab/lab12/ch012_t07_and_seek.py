@@ -24,4 +24,5 @@ random_row(board)
 random_col(board)
 
 # Add your code below!
-guest_row = 
+guest_row = input
+guest_col = 
