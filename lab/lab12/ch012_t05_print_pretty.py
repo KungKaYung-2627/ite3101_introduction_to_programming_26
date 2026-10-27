@@ -10,4 +10,4 @@ def print_board(board_in: List[List[str]]) -> None:
         print(row)
 
 
-pro
+print_board(board)
