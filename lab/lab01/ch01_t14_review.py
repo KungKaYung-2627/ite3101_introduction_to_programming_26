@@ -1,1 +1,2 @@
-skill_completed = 
+skill_completed = "Python Syntax"
+exercise_completed = 13
