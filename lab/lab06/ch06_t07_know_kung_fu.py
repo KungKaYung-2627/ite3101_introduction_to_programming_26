@@ -1,1 +1,2 @@
-# Ask Python to print sqrt(25) on line 3.
+# This deliberately raises NameError; the next exercise imports sqrt.
+print(sqrt(25))

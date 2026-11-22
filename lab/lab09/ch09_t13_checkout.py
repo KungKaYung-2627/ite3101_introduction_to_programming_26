@@ -30,3 +30,7 @@ def compute_bill(food: List[str]) -> float:
             total += prices[item]
             stock[item] -= 1
     return total
+
+
+if __name__ == "__main__":
+    print(compute_bill(["banana", "orange"]))

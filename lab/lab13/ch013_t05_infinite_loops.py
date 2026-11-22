@@ -1,8 +1,5 @@
-import time
 count = 0
 
-while count < 10:  # Add a colon
+while count < 10:
     print(count)
-    time.sleep(3)
-    # Increment count
     count += 1

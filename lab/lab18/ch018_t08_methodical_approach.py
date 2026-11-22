@@ -5,4 +5,12 @@ class Animal(object):
     def __init__(self, name: str, age: int):
         self.name = name
         self.age = age
-    # Add your method here!
+
+    def description(self):
+        print(self.name)
+        print(self.age)
+
+
+hippo = Animal("Peter", 10)
+if __name__ == "__main__":
+    hippo.description()

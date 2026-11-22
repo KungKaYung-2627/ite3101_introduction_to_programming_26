@@ -15,4 +15,9 @@ class PartTimeEmployee(Employee):
         self.hours = hours
         return hours * 12.00
 
-    # Add your code below!
+    def full_time_wage(self, hours: int):
+        return super().calculate_wage(hours)
+
+
+milton = PartTimeEmployee("Milton")
+print(milton.full_time_wage(10))

@@ -5,11 +5,11 @@ file_path_name = os.path.join(os.path.dirname(
 # Use a file handler to open a file for writing
 write_file = open(file_path_name, "w")
 
-# Open the file for reading
-read_file = open(file_path_name, "r")
-
 # Write to the file
 write_file.write("Not closing files is VERY BAD.")
+write_file.close()
 
-# Try to read from the file
+# Reopen for reading after the write buffer has been flushed.
+read_file = open(file_path_name, "r")
 print(read_file.read())
+read_file.close()

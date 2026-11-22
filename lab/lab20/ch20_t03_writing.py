@@ -5,4 +5,7 @@ file_path_name = os.path.join(os.path.dirname(
     os.path.abspath(__file__)), "outputs/ch20_t03_output.txt")
 my_file = open(file_path_name, "w")
 
-# Add your code below!
+for item in my_list:
+    my_file.write(str(item) + "\n")
+
+my_file.close()

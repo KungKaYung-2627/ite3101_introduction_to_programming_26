@@ -1,5 +1,4 @@
-zoo_animals = ["pangolin", "cassowary", "sloth", ]
-# One animal is missing!
+zoo_animals = ["pangolin", "cassowary", "sloth", "otter"]
 
 if len(zoo_animals) > 3:
     print("The first animal at the zoo is the " + zoo_animals[0])
