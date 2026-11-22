@@ -15,7 +15,7 @@ if_nmae_== "_main_"
     total = 0
     for key in prices:
         value = prices[key] * stock[key]
-        
-    print(key)
+
+    print(value)
     print("price: %s" % prices[key])
     print("stock: %s" % stock[key])
