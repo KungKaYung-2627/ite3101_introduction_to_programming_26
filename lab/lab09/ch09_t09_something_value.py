@@ -11,10 +11,3 @@ stock = {
     "pear": 15,
 }
 
-if __name__ == "__main__":
-    total = 0
-    for key in prices:
-        value = prices[key] * stock[key]
-        print(value)
-        total += value
-    print(total)
