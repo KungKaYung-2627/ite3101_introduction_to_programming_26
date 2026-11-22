@@ -9,5 +9,12 @@ stock = {
     "apple": 0,
     "orange": 32,
     "pear": 15,
-}
 
+total = 0
+for key in prices:
+    print(key)
+    print(f"price: {prices[key]}")
+    print(f"stock: {stock[key]}")
+    total += prices[key] * stock[key]
+
+print(total)
