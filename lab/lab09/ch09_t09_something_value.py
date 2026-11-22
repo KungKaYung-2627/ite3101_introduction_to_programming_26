@@ -11,7 +11,7 @@ stock = {
     "pear": 15,
 }
 
-if_nmae_== "_main_"
+if __name__ == "__main__":
     total = 0
     for key in prices:
         value = prices[key] * stock[key]
